@@ -1,6 +1,6 @@
 import './index.css'
 
-const CardItem = props => {
+const CardItems = props => {
   const {cardDetails} = props
   const {title, description, imgUrl, className} = cardDetails
 
@@ -15,4 +15,4 @@ const CardItem = props => {
   )
 }
 
-export default CardItem
+export default CardItems

@@ -1,4 +1,4 @@
-import CardItem from './components/CardItem'
+import CardItems from './components/CardItems'
 
 import './App.css'
 
@@ -48,7 +48,7 @@ const App = () => (
       </p>
       <ul className="cards-list">
         {cardsList.map(eachCard => (
-          <CardItem cardDetails={eachCard} key={eachCard.id} />
+          <CardItems cardDetails={eachCard} key={eachCard.id} />
         ))}
       </ul>
     </div>
